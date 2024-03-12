@@ -1,0 +1,1 @@
+install react-icons with: npm install react-icons --save
