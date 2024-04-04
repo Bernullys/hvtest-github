@@ -13,3 +13,12 @@
     color: #FFFFFF;
     padding: 0;
 }
+
+.insta_logo:hover,
+.linke_logo:hover,
+.whatsapp_logo:hover {
+    width: 24px;
+    height: 24px;
+    color: #18CAFF;
+    padding: 0;
+}

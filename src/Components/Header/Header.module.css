@@ -1,0 +1,102 @@
+.header_nav_container {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--sm);
+    font-weight: bold;
+    background: #FFF;
+}
+
+.a_logo {
+    margin-left: 80px;
+}
+
+.header_logo_container {
+    height: 125px;
+    width: 125px;
+    background: url("../../../public/assets/headerlogo.png");
+    background-size: cover;
+}
+
+.header_nav_ul {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px 0px 0px 246px;
+    padding: 0;
+}
+
+.header_nav_ul li a {
+    text-decoration: none;
+    padding: 24px 0 24px;
+    margin-right: 40px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    color: #000;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_nav_ul li a:hover {
+    color: #18CAFF;
+}
+
+.active_page {
+    position: relative;
+    display: inline-block;    
+}
+
+.active_page:visited {
+    color: #18CAFF;  
+}
+
+.active_page::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.5px;
+    width: 100%;
+    height: 10px;
+    background-color: #18CAFF;
+    border-radius: 8px;
+}
+
+.contact_header_button_container {
+    list-style: none;
+    padding: 0;
+}
+
+#cotiza_header_button {
+    text-decoration: none;
+    display: flex;
+    width: 221px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #18CAFF;
+    color: #FFF;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media(max-width: 1255px) {
+    #cotiza_header_button {
+        width: 100px;
+    }
+    .header_nav_container {
+        width: max-content;
+    }
+}

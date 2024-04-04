@@ -1,6 +1,10 @@
-.home_main_container {
+.home_page_main_container {
+    height: 3480px;
+}
+
+.home_top_container {
     height: 555px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(7, 33, 80, 0.1) 45.31%, rgba(255, 255, 255, 0.00) 100%), url("../../assets/image_electric_towers.png");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(7, 33, 80, 0.1) 45.31%, rgba(255, 255, 255, 0.00) 100%), url("../../../public/assets/image_electric_towers.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -76,4 +80,176 @@
     cursor: pointer;
 }
 
-/* ------------------------------------------------------------------------- */
+/* ----------------------middle--------------------------------------------------- */
+
+.home_middle_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 412px;
+}
+
+.home_middle_title {
+    margin: 70px 0 0 0;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home_middle_paragraph {
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 812px;
+}
+
+.white_button {
+    width: 189px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 89px;
+    border: 0.888px solid #18CAFF;
+    color: #18CAFF;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* ----------------------home services------------------------------------------------ */
+
+.home_services_container {
+    height: 810px;
+    background: #2dbbe51a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_services_title {
+    height: 41px;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 75px;
+    margin-bottom: 64px;
+}
+
+.home_services_arrows_cards_container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.home_services_cards_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.card_arrow_right,
+.card_arrow_left {
+    margin: 0 24px 0 24px;
+    background: #FFF;
+    color: #3D3D3D;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.card_arrow_right:hover,
+.card_arrow_left:hover {
+    background: #18CAFF;
+    color: #FFF;
+
+}
+
+.home_services_cards_paginationpoints {
+    display: flex;
+    justify-content: center;
+}
+
+.paginationpoints {
+    height: 24px;
+    width: 24px;
+    margin: 0 12px 0 12px;
+    color: #3D3D3D;
+    cursor: pointer;
+}
+
+.paginationpoints:hover {
+    color: #18CAFF;
+}
+
+/* ----------------------home projects------------------------------------------------ */
+
+.home_projects_grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    height: 100vh;
+}
+
+.home_projects_grid_container > :first-child {
+    grid-row: span 2;
+    height: 100%;
+    width: 100%;
+}
+
+.home_projects_title {
+    height: 41px;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 75px;
+    margin-bottom: 64px;
+}
+
+/* ----------------------home clients------------------------------------------------ */
+
+.home_clients_title {
+    height: 41px;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 75px;
+    margin-bottom: 64px;
+}
+
+.home_clients_container {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+}

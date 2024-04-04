@@ -1,0 +1,8 @@
+.card_home_clients_card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+    width: 100%;
+    white-space: nowrap;
+}
