@@ -10,7 +10,7 @@ function ProjectsPage () {
 
     useEffect(() => {
         const initialIndices = {};
-        cardHomeProjectsProps.forEach(project => {
+        cardProjectsProps.forEach(project => {
             initialIndices[project.id] = 0;
         });
         setProjectImageIndices(initialIndices);
@@ -19,18 +19,18 @@ function ProjectsPage () {
     function nextImage(projectId) {
         setProjectImageIndices(prevState => ({
             ...prevState,
-            [projectId]: (prevState[projectId] + 1) % cardHomeProjectsProps.find(p => p.id === projectId).backgroundImage.length
+            [projectId]: (prevState[projectId] + 1) % cardProjectsProps.find(p => p.id === projectId).backgroundImage.length
         }));
     }
 
     function prevImage(projectId) {
         setProjectImageIndices(prevState => ({
             ...prevState,
-            [projectId]: (prevState[projectId] - 1 + cardHomeProjectsProps.find(p => p.id === projectId).backgroundImage.length) % cardHomeProjectsProps.find(p => p.id === projectId).backgroundImage.length
+            [projectId]: (prevState[projectId] - 1 + cardProjectsProps.find(p => p.id === projectId).backgroundImage.length) % cardProjectsProps.find(p => p.id === projectId).backgroundImage.length
         }));
     }
 
-    const cardHomeProjectsProps = [
+    const cardProjectsProps = [
         {
             id: 11,
             project: "División Chuquicamata, Codelco - Precision",
@@ -136,13 +136,13 @@ function ProjectsPage () {
             </section>
             <section className={styles.projects_container}>
                 {
-                    cardHomeProjectsProps.map((project, index) => (
-                        <section key={index} className={styles.projects_text_container}>
+                    cardProjectsProps.map((project, index) => (
+                        <section key={index} className={styles.projects_cards_container}>
                             <CardProjects 
                                 project={project.project}
                                 description={project.description}
                                 backgroundImage={project.backgroundImage[projectImageIndices[project.id]]}
-                        />
+                            />
                             <IoIosArrowRoundBack className={styles.card_arrow_left} onClick={() => prevImage(project.id)}/>
                             <IoIosArrowRoundForward className={styles.card_arrow_right} onClick={() => nextImage(project.id)}/>
                         </section>

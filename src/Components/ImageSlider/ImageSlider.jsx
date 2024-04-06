@@ -5,6 +5,7 @@ import styles from "./ImageSlider.module.css"
 
 function ImageSlider ({ imagesList }) {
 
+
     const cardHomeProjectsProps = [
         {
             id: 6,
