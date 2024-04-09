@@ -1,5 +1,6 @@
 .testgear_article_main_container {
     display: flex;
+    position: relative;
 }
 
 .testgear_article_container {
@@ -83,4 +84,31 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+}
+
+.testgear_show_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.testgear_hide_description {
+    display: none;
+}
+
+.card_gear_des_close_icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    color: #18CAFF;
+    width: 44px;
+    height: 44px;
+    z-index: 25;
+    
 }

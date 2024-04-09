@@ -10,7 +10,7 @@
 .whatsapp_logo {
     width: 24px;
     height: 24px;
-    color: #FFFFFF;
+    color: #FFF;
     padding: 0;
 }
 
@@ -19,6 +19,6 @@
 .whatsapp_logo:hover {
     width: 24px;
     height: 24px;
-    color: #18CAFF;
+    color: #006D8F;
     padding: 0;
 }

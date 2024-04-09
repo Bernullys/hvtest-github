@@ -4,7 +4,7 @@
     border-radius: 15px;
     margin: 0px 12px 36px 64px;
     display: flex;
-    white-space: nowrap;
+
 }
 
 .card_home_service_container_blind {
@@ -16,21 +16,19 @@
     width: 392px;
     height: 520px;
     border-radius: 15px;
-    white-space: nowrap;
+    overflow-wrap: break-word;
 }
 
 .card_home_service_title {
     color: #FFFFFF;
-    text-align: center;
     font-family: "futuraLtBt";
     font-size: 18px;
     font-style: normal;
     font-weight: bolder;
     line-height: normal;
-    margin: 12px 20px 5px 20px;
-    padding: 12px 5px 12px 5px;
-    border-radius: 16px;
-
+    text-align: center;
+    height: 120px;
+    width: 100%;
 }
 
 .white_button_sm {

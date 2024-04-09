@@ -47,7 +47,7 @@ const valuesInfo = [
 
 function Us () {
     return (
-        <section>
+        <section className={styles.us_top_section_main_container} >
             <section className={styles.us_top_section_image_container}>
                 <h1 className={styles.us_top_title}>Personalidad <b className={styles.styling_word}>Hv Test</b></h1>
                 <SocialLogos />

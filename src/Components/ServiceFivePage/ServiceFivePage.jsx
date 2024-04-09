@@ -1,4 +1,5 @@
 import CardTestGears from "../CardTestGears/CardTestGears";
+
 import styles from "./ServiceFivePage.module.css"
 
 const testGears = [
@@ -20,7 +21,7 @@ const testGears = [
         eett: "../../../public/assets/RMO-200G.pdf"
     },
     {
-        name: "Micróhmetro 10 A",
+        name: "Micróhmetro - 10 A",
         brand: "Avo",
         model: "DLRO 10",
         image: "../../../public/assets/DLRO10.png",
@@ -42,7 +43,7 @@ const testGears = [
         eett: "../../../public/assets/DLRO10.pdf"
     },
     {
-        name: "Medidor de aislamiento 10 kV",
+        name: "Medidor de aislamiento - 10 kV",
         brand: "Megger",
         model: "MIT 1020/2",
         image: "../../../public/assets/MIT10202.png",
@@ -184,7 +185,7 @@ const testGears = [
 function ServiceFivePage () {
 
     return (
-        <section>
+        <section className={styles.servicefive_main_container}>
                 <h1 className={styles.servicefive_title}>Arriendo de Equipos de Pruebas Eléctricas</h1>
             <section className={styles.servicefive_titleanddescription_container}>
                 <p className={styles.servicefive_paragraph}>
@@ -194,7 +195,7 @@ function ServiceFivePage () {
                     clientes y así permitir realizar puestas en servicio y ensayos bajo criterios de las normas nacionales e internacionales.
                 </p>
             </section>
-            <section className={styles.servicefive_main_container}>
+            <section className={styles.servicefive_cards_main_container}>
                 {
                     testGears.map(gear => ( 
                         <CardTestGears 
@@ -210,6 +211,7 @@ function ServiceFivePage () {
                     ))
                 }
             </section>
+
         </section>
     )
 }

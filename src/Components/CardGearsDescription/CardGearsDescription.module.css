@@ -1,0 +1,30 @@
+.card_gear_des_main_container {
+    width: 70vw;
+    height: 70vh;
+    background: rgba(111, 0, 255, 1);
+    position: relative;
+    box-shadow: 0px 4px 15px 0px rgba(24, 202, 255, 0.25);
+}
+
+.card_gear_des_title {
+    color: #FFF;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 100px 0 0 0;
+}
+
+.card_gear_des_paragraph {
+    display: block;
+    margin: 40px 40px 40px 40px;
+    color: #FFF;
+    text-align: justify;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

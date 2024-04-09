@@ -6,6 +6,7 @@
     flex-shrink: 0;
     margin-top: 0.5px;
     background: linear-gradient(180deg, rgba(45, 187, 229, 0.50) 0%, rgba(158, 233, 255, 0.10) 30.98%, rgba(45, 187, 229, 0.00) 68.36%);
+    margin-top: 100px;
 }
 
 .contact_title {
