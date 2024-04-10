@@ -52,3 +52,30 @@
     cursor: pointer;
     margin-bottom: 12px;
 }
+
+@media(max-width: 960px) {
+    .card_home_project_description {
+        display: none;
+    }
+    .transparent_button {
+        width: 120px;
+        height: 35px;
+        margin-top: 24px;
+    }
+    .card_home_project_title {
+        font-size: 36px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .card_home_project_title {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 340px) {
+    .card_home_project_title {
+        font-size: 20px;
+    }
+}
