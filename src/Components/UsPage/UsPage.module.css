@@ -68,13 +68,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 812px;
+    width: 80%;
 }
 
 .us_middle_section_cards_container {
     display: flex;
     justify-content: space-around;
-    width: 720px;
+    width: 65%;
 }
 
 .us_lower_section_main_container {
@@ -87,8 +87,12 @@
 }
 
 .us_lower_section_container {
-    width: 812px;
+    width: 100%;
     margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .us_lower_section_characteristics_main_container {
@@ -100,4 +104,81 @@
     height: 150px;
     width: 150px;
     color: #18CAFF;
+}
+
+@media (max-width: 960px) {
+    .us_middle_section_cards_container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .us_lower_section_characteristics_main_container svg  {
+        height: 120px;
+        width: 120px;
+    }
+    .us_lower_section_main_container {
+        height: 600px;
+    }
+    .us_top_title {
+        margin: 100px 0 0 100px;
+    }
+}
+
+@media (max-width: 690px) {
+    .us_middle_section_cards_container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 750px;
+    }
+    .us_middle_section_main_container {
+        height: 130vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .us_top_section_image_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .us_lower_section_characteristics_main_container {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .us_top_title {
+        margin: 0;
+    }
+    .us_lower_section_characteristics_main_container svg {
+        height: 80px;
+        width: 80px;
+        color: #18CAFF;
+    }
+}
+
+@media (max-width: 310px) {
+    .us_lower_section_characteristics_main_container svg {
+        display: none;
+    }
+    .us_top_title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 310px) {
+    .us_top_title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 270px) {
+    .us_lower_section_main_container {
+        height: 950px;
+    }
 }

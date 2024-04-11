@@ -278,9 +278,6 @@
         justify-content: space-evenly;
         width: 300px;
     }
-}
-
-@media(max-width: 500px) {
     .home_projects_grid_container {
         display: flex;
         flex-direction: column;
@@ -299,7 +296,7 @@
         height: 550px;
     }
     .home_page_main_container {
-        height: 2800px;
+        height: 2900px;
     }
 }
 
@@ -314,8 +311,5 @@
         flex-direction: column;
         width: auto;
         height: 120px;
-    }
-    .home_title_container {
-
     }
 }

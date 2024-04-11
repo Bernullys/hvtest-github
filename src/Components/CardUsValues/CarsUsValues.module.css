@@ -1,14 +1,17 @@
 .card_us_values_main_container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_us_values_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 360px;
+    width: 60%;
 }
 
 .card_us_value {
@@ -32,4 +35,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width: 750px) {
+    .card_us_vaulue_description {
+        display: none;
+    }
+    .card_us_value {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card_us_value {
+        display: none;
+    }
 }

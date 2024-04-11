@@ -66,3 +66,30 @@
     color: #18CAFF;
     padding: 0;
 }
+
+@media (max-width: 350px) {
+    .personal_card_container {
+        width: 230px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 280px) {
+    .personal_card_container {
+        width: 190px;
+        height: 280px;
+    }
+    .footer_solcial_logo {
+        display: none;
+    }
+}
+
+@media (max-width: 268px) {
+    .image_card_container {
+        display: none;
+    }
+    .personal_card_container {
+        width: 150px;
+        height: 100px;
+    }
+}
