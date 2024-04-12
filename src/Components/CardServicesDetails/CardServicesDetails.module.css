@@ -29,10 +29,40 @@
     font-style: normal;
     font-weight: 700;
     line-height: 50px;
-    width: auto;
+    width: 80%;
     margin: 0px 0 0 0;
 }
 
 .service_characteristics_item {
     padding-bottom: 8px;
+}
+
+@media (max-width:920px) {
+    .service_subtitle {
+        font-size: 32px;
+        width: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .service_subtitle {
+        width: 100%;
+        text-align: center;
+    }
+    .service_subtitle_and_characteristics_container {
+        width: 70vw;
+        align-items: center;
+    }
+}
+
+@media (max-width: 370px) {
+    .service_subtitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 255px) {
+    .service_subtitle {
+        font-size: 18px;
+    }
 }

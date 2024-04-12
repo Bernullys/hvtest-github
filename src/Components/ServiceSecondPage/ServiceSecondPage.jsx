@@ -64,16 +64,16 @@ function ServiceSecondPage () {
             </section>
 
             <section className={styles.serviceone_article_container}>
-                <ImageSlider 
-                    imagesList={controlServiceImages}/>
                 {
                     controlDescription.map( (pow, index )=> (
                         <CardServicesDetails
-                            key={index} 
-                            subtitle={pow.subtitle}
-                            charactericticsList={pow.items}/>
-                    ))
+                        key={index} 
+                        subtitle={pow.subtitle}
+                        charactericticsList={pow.items}/>
+                        ))
                 }
+                <ImageSlider 
+                    imagesList={controlServiceImages}/>
             </section>
 
         </section>

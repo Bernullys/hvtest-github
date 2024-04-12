@@ -1,7 +1,7 @@
 .service_container {
     position: relative;
-    height: 465px;
-    width: 60vw;
+    height: 60vh;
+    width: 90vw;
     flex-shrink: 0;
     margin: 0 0 36px 0;
     display: flex;
@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 50px;
-    width: 692px;
+    width: 100%;
     margin: 0;
     z-index: 2;
 }
@@ -68,4 +68,54 @@
     cursor: pointer;
     margin: 0;
     z-index: 2;
+}
+
+@media (max-width: 1150px) {
+    .service_title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .service_title {
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .service_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .service_button {
+        width: 130px;
+        height: 45px;
+        padding: 5px;
+        border-radius: 89px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 370px) {
+    .service_title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .service_title_button_container {
+        display: inline;
+        align-items: center;
+        text-align: center;
+        z-index: 5;
+    }
+    .service_title {
+        margin: 56px 0 56px 0;
+    }
+}
+
+@media (max-width: 280px) {
+    .service_title {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

@@ -15,22 +15,22 @@
 }
 
 .services_header_image_1 {
-    width: 400px;
-    height: 659px;
+    width: 30%;
+    height: 90%;
     object-fit: cover;
     border-radius: 0px 0px 30px 30px;
     position: absolute;
-    left: 250px;
+    left: 10%;
     opacity: 0.5;
 }
 
 .services_header_image_2 {
-    width: 434px;
-    height: 392px;
+    width: 30%;
+    height: 60%;
     object-fit: cover;
     border-radius: 0px 0px 30px 30px;
     position: absolute;
-    right: 250px;
+    right: 8%;
     opacity: 0.5;
 }
 
@@ -51,8 +51,8 @@
     text-align: right;
     text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.9);
     position: absolute;
-    top: 180px;
-    left: 537px;
+    top: 25%;
+    left: 30%;
     margin: 0px;
     width: 686px;
     height: 214px;
@@ -73,8 +73,8 @@
     width: 508px;
     height: 125px;
     position: absolute;
-    top: 418px;
-    right: 350px;
+    top: 65%;
+    right: 15%;
     text-align: justify;
     margin: 0;
 }
@@ -112,7 +112,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 811px;
+    width: 90%;
     height: 75px;
     margin: 36px 0 76px 0;
 }
@@ -127,4 +127,89 @@
     line-height: normal;
     width: 100%;
     margin: 0 0 40px 0;
+}
+
+@media (max-width: 1160px) {
+    .services_header_paragraph {
+        right: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .services_header_main_title {
+        left: 10%;
+    }
+}
+
+@media (max-width: 950px) {
+    .services_header_image_1 {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .services_content_paragraph {
+        
+    }
+}
+
+@media (max-width: 800px) {
+    .services_header_main_title {
+        left: 1%;
+        font-size: 48px;
+        text-align: center;
+        margin: 0;
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .services_content_paragraph {
+        height: 180px;
+    }
+    .services_header_paragraph {
+        width: 90%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .services_header_image_2 {
+        display: none;
+    }
+    .services_header_main_title {
+        left: 7%;
+    }
+}
+
+@media (max-width: 370px) {
+    .services_content_paragraph {
+        height: 300px;
+    }
+    .services_header_paragraph {
+        display: none;
+    }
+    .services_content_title,
+    .services_content_subtitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 370px) {
+    .social_logos_position {
+        width: 100%;
+        position: absolute;
+        right: 0px;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .services_content_paragraph {
+        display: none;
+    }
+    .services_header_main_title {
+        font-size: 36px;
+
+    }
 }

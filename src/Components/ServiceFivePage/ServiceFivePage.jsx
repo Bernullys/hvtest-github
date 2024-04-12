@@ -199,14 +199,14 @@ function ServiceFivePage () {
                 {
                     testGears.map(gear => ( 
                         <CardTestGears 
-                        key={gear.name}
-                        name={gear.name}
-                        brand={gear.brand}
-                        model={gear.model}
-                        image={gear.image}
-                        description={gear.description}
-                        characteristics={gear.characteristics}
-                        eett={gear.eett}
+                            key={gear.name}
+                            name={gear.name}
+                            brand={gear.brand}
+                            model={gear.model}
+                            image={gear.image}
+                            description={gear.description}
+                            characteristics={gear.characteristics}
+                            eett={gear.eett}
                         />
                     ))
                 }

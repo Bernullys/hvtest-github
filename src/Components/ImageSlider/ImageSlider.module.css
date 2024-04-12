@@ -48,3 +48,19 @@
 .slide {
     display: none;
 }
+
+@media (max-width: 500px) {
+    .card_arrow_right,
+    .card_arrow_left {
+        width: 50px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 340px) {
+    .card_arrow_right,
+    .card_arrow_left {
+        width: 40px;
+        height: 20px;
+    }
+}

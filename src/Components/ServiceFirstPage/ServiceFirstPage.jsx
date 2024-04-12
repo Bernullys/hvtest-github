@@ -108,16 +108,16 @@ function ServiceFirstPage () {
             </section>
 
             <section className={styles.serviceone_article_container}>
-                <ImageSlider 
-                    imagesList={powerIntServiceImages}/>
                 {
                     powerIntDescription.map( (pow, index )=> (
                         <CardServicesDetails
-                            key={index} 
-                            subtitle={pow.subtitle}
-                            charactericticsList={pow.items}/>
-                    ))
-                }
+                        key={index} 
+                        subtitle={pow.subtitle}
+                        charactericticsList={pow.items}/>
+                        ))
+                    }
+                <ImageSlider 
+                    imagesList={powerIntServiceImages}/>
             </section>
 
             <section className={styles.serviceone_article_container}>
@@ -134,16 +134,16 @@ function ServiceFirstPage () {
             </section>
 
             <section className={styles.serviceone_article_container}>
-                <ImageSlider 
-                    imagesList={celImages}/>
                 {
                     celDescription.map( (pow, index )=> (
                         <CardServicesDetails
-                            key={index} 
-                            subtitle={pow.subtitle}
-                            charactericticsList={pow.items}/>
-                    ))
-                }
+                        key={index} 
+                        subtitle={pow.subtitle}
+                        charactericticsList={pow.items}/>
+                        ))
+                    }
+                <ImageSlider 
+                    imagesList={celImages}/>
             </section>
 
 
