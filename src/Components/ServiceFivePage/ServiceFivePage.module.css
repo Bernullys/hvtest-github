@@ -40,3 +40,15 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 470px) {
+    .servicefive_title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 235px) {
+    .servicefive_title {
+        font-size: 32px;
+    }
+}

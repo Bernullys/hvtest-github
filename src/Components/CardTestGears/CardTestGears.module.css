@@ -104,11 +104,48 @@
 .card_gear_des_close_icon {
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 80px;
     cursor: pointer;
     color: #18CAFF;
     width: 44px;
     height: 44px;
-    z-index: 25;
-    
+    z-index: 55;
+}
+
+@media (max-width: 435px) {
+    .testgear_article_container {
+        width: 85%;
+    }
+    .testgear_name {
+        font-size: 24px;
+    }
+    .testgear_brand,
+    .testgear_model {
+        font-size: 18px;
+    }
+    .testgear_description_button,
+    .testgear_eett_button,
+    .testgear_eett_button a {
+        font-size: 18px;
+    }
+    .testgear_image {
+        width: 75%;
+    }
+}
+
+@media (max-width: 750px) {
+    .card_gear_des_close_icon {
+        width: 36px;
+        height: 36px;
+        top: 68px;
+        right: 4px;
+    } 
+}
+
+@media (max-width: 300px) {
+    .card_gear_des_close_icon {
+        width: 32px;
+        height: 32px;
+
+    } 
 }
