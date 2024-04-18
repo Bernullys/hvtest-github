@@ -8,14 +8,14 @@ function Header () {
         <header>
             <nav className={styles.header_nav_container}>
 
-                <NavLink className={styles.a_logo} to="/inicio">
+                <NavLink className={styles.a_logo} to="/">
                     <section className={styles.header_logo_container}></section>
                 </NavLink>
 
                 <ul className={styles.header_nav_ul}>
                     <li>
                         <NavLink
-                            to="/inicio"
+                            to="/"
                             className={({ isActive }) => isActive ? styles.active_page : undefined}>
                                 Inicio
                         </NavLink>

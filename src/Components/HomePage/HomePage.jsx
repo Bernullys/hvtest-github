@@ -14,31 +14,35 @@ function HomePage () {
     const cardHomeServicesProps = [
         {
             id: 1,
-            service: "PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS ELÉCTRICOS",
+            serviceFirstLine: "PRUEBAS ELÉCTRICAS DE ACEPTACIÓN",
+            serviceSecondLine: "A EQUIPOS ELÉCTRICOS",
             backgroundImage: "../../../public/assets/image-home-pruebas.jpeg",
             goTo: "/servicios/pruebas"
         },
         {
             id: 2,
-            service: "CONTROL Y PROTECCIÓNES ELÉCTRICAS",
+            serviceFirstLine: "CONTROL Y PROTECCIÓNES",
+            serviceSecondLine: "ELÉCTRICAS",
             backgroundImage: "../../../public/assets/image-home-protecciones.jpeg",
             goTo: "/servicios/control"
         },
         {
             id: 3,
-            service: "MANTENIMIENTO Y PUESTA EN SERVICIO DE EQUIPOS ELÉCTRICOS",
+            serviceFirstLine: "MANTENIMIENTO Y PUESTA EN SERVICIO",
+            serviceSecondLine: "DE EQUIPOS ELÉCTRICOS",
             backgroundImage: "../../../public/assets/image-home-mantenimiento.jpg",
             goTo: "/servicios/mantenimiento"
         },
         {
             id: 4,
-            service: "ARRIENDO EQUIPOS DE PRUEBAS ELÉCTRICAS",
+            serviceFirstLine: "ARRIENDO EQUIPOS",
+            serviceSecondLine: "DE PRUEBAS ELÉCTRICAS",
             backgroundImage: "../../../public/assets/image-home-arriendo.jpeg",
             goTo: "/servicios/arriendo"
         },
         {
             id: 5,
-            service: "ASESORÍA TÉCNICA",
+            serviceFirstLine: "ASESORÍA TÉCNICA",
             backgroundImage: "../../../public/assets/image-home-ascesoria.jpeg",
             goTo: "/servicios/asesoría"
         },
@@ -125,7 +129,8 @@ function HomePage () {
                                 cardHomeServicesProps.map(card => (
                                     <CardHomeSercives
                                     key={card.id}
-                                    service={card.service} 
+                                    serviceFirstLine={card.serviceFirstLine}
+                                    serviceSecondLine={card.serviceSecondLine} 
                                     backgroundImage={card.backgroundImage}
                                     goTo={card.goTo}
                                     />

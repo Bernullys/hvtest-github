@@ -33,7 +33,7 @@ function ProjectsPage () {
     const cardProjectsProps = [
         {
             id: 11,
-            project: "División Chuquicamata, Codelco - Precision",
+            project: "División Chuquicamata, Codelco - Precision.",
             description: "Ensayos eléctricos y mantención a equipos de media y baja tensión tales como: Interruptores, CCM's, CDC's, Switchtgears y transformadores.",
             backgroundImage: [
                 "../../../public/assets/project1-image1.jpeg",
@@ -48,7 +48,7 @@ function ProjectsPage () {
         },
         {
             id: 12,
-            project: "División Ministro Hales, Codelco - Ingelcop",
+            project: "División Ministro Hales, Codelco - Ingelcop.",
             description: "Ejecución de pruebas eléctricas a transformadores de poder 1 y 2, Subestación Eléctrica 220/23 kV.",
             backgroundImage: [
                 "../../../public/assets/image-home-project-ministrales.jpeg",
@@ -58,7 +58,7 @@ function ProjectsPage () {
         },
         {
             id: 13,
-            project: "Subestación Nueva Pan de Azúcar, Isa Interchile - Siemens",
+            project: "Subestación Nueva Pan de Azúcar, Isa Interchile - Siemens.",
             description: "Pruebas SAT, equipo primario de alta tensión.",
             backgroundImage: [
                 "../../../public/assets/project3-image1.jpeg",
@@ -69,7 +69,7 @@ function ProjectsPage () {
         },
         {
             id: 14,
-            project: "Pruebas eléctricas en centros de transformación del Parque Fotovoltaico Finis Terrae",
+            project: "Pruebas eléctricas en centros de transformación del Parque Fotovoltaico Finis Terrae.",
             description: "Pruebas de mantenimiento preventivo a transformador y celdas de media tensión.",
             backgroundImage: [
                 "../../../public/assets/project4-image1.jpeg",
@@ -111,7 +111,7 @@ function ProjectsPage () {
         },
         {
             id: 17,
-            project: "Subestación Gis Tres Quebradas (220 kV), ",
+            project: "Subestación Gis Tres Quebradas (220 kV).",
             description: "Pruebas eléctricas a equipos primarios tipo Gis y tipo intemperie",
             backgroundImage: [
                 "../../../public/assets/project7-image1.jpeg",

@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 812px;
+    width: 100%;
 }
 
 .projects_container {
@@ -54,7 +54,7 @@
 .card_arrow_left {
     position: absolute;
     left: 15%;
-    top: 40%;
+    top: 35%;
     margin: 0 24px 0 24px;
     background: #18caff;
     color: #FFF;
@@ -68,7 +68,7 @@
 .card_arrow_right {
     position: absolute;
     right: 15%;
-    top: 40%;
+    top: 35%;
     margin: 0 24px 0 24px;
     background: #18caff;
     color: #FFF;
@@ -77,4 +77,45 @@
     flex-shrink: 0;
     border-radius: 8px;
     cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    .card_arrow_left,
+    .card_arrow_right {
+        width: 50px;
+        height: 30px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 720px) {
+    .card_arrow_left {
+        left: 8%;
+    }
+    .card_arrow_right {
+        right: 8%;
+    }
+}
+
+@media (max-width: 450px) {
+    .card_arrow_left {
+        left: 5%;
+    }
+    .card_arrow_right {
+        right: 5%;
+    }
+}
+
+@media (max-width: 300px) {
+    .card_arrow_left {
+        left: 1%;
+    }
+    .card_arrow_right {
+        right: 1%;
+    }
+    .card_arrow_right,
+    .card_arrow_left {
+        width: 40px;
+        height: 20px;
+    }
 }

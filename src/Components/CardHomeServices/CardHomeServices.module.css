@@ -19,6 +19,10 @@
     overflow-wrap: break-word;
 }
 
+.card_home_service_title_container {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .card_home_service_title {
     color: #FFFFFF;
     font-family: "futuraLtBt";
@@ -27,7 +31,6 @@
     font-weight: bolder;
     line-height: normal;
     text-align: center;
-    height: 120px;
     width: 100%;
 }
 
@@ -60,6 +63,9 @@
         width: 292px;
         height: 420px;
     }
+    .card_home_service_title {
+        font-size: 14px;
+    }
 }
 
 @media(max-width: 500px) {
@@ -74,5 +80,8 @@
         padding: 5px;
         border-radius: 89px;
         font-size: 18px;
+    }
+    .card_home_service_title {
+        font-size: 10.5px;
     }
 }
