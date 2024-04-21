@@ -4,7 +4,19 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    // Configuración específica para la construcción (build)
+    assetsInlineLimit: 0, // Desactivar límite de tamaño para inlining assets
+
+    rollupOptions: {
+      output: {
+        // Configuración de la salida (output)
+        assetFileNames: 'assets/[name]-[hash][extname]', // Ruta y nombre de los assets
+      },
+    },
+  },
 })
+
 
 // vite.config.js
 // import { defineConfig } from 'vite';
