@@ -12,13 +12,13 @@ const workersInfo = [
     {
         name: "Jose Manuel Freitez",
         position: "Ingeniero Eléctricista",
-        profileImage: "../../../public/assets/Jose-Manuel-Image.jpeg",
+        profileImage: "../../../assets/Jose-Manuel-Image.jpeg",
         linkTolinkedin: "https://www.linkedin.com/in/jos%C3%A9-manuel-freitez-martos-932190bb/"
     },
     {
         name: "Leonardo Alejandro Nuñez",
         position: "Ingeniero Eléctricista",
-        profileImage: "../../../public/assets/Leonardo-Image.jpeg",
+        profileImage: "../../../assets/Leonardo-Image.jpeg",
         linkTolinkedin: "https://www.linkedin.com/in/leonardo-alejandro-nu%C3%B1ez-araujo-0a465979/"
     }
 ]
