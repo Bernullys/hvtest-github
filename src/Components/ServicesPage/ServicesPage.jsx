@@ -3,13 +3,22 @@ import SocialLogos from "../SocialLogos/SocialLogos"
 import CardServices from "../CardServices/CardServices"
 import styles from "./ServicesPage.module.css"
 
+import imageServicePageWall1 from "../../../public/assets/image-service-header.jpeg"
+import imageServicePageWall2 from "../../../public/assets/image-service-header2.jpeg"
+
+import imageService1 from "../../../public/assets/image-home-pruebas.jpeg"
+import imageService2 from "../../../public/assets/image-home-protecciones.jpeg"
+import imageService3 from "../../../public/assets/image-home-mantenimiento.jpg"
+import imageService4 from "../../../public/assets/image-home-ascesoria.jpeg"
+import imageService5 from "../../../public/assets/image-home-arriendo.jpeg"
+
 function ServicesPage () {
 
     const servicesInfo = [
         {
             id: 1,
             service: "PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS ELÉCTRICOS",
-            backgroundImage: "../../../public/assets/image-home-pruebas.jpeg",
+            backgroundImage: imageService1,
             goTo: "/servicios/pruebas",
             backgroundColor: "#10A4CE",
             aligning: "flex-start",
@@ -18,7 +27,7 @@ function ServicesPage () {
         {
             id: 2,
             service: "CONTROL Y PROTECCIONES ELÉCTRICAS",
-            backgroundImage: "../../../public/assets/image-home-protecciones.jpeg",
+            backgroundImage: imageService2,
             goTo: "/servicios/control",
             backgroundColor: "#006EDC",
             aligning: "flex-end",
@@ -27,7 +36,7 @@ function ServicesPage () {
         {
             id: 3,
             service: "MANTENIMIENTO Y PUESTA EN SERVICIO DE EQUIPOS ELÉCTRICOS",
-            backgroundImage: "../../../public/assets/image-home-mantenimiento.jpg",
+            backgroundImage: imageService3,
             goTo: "/servicios/mantenimiento",
             backgroundColor: "#38B000",
             aligning: "flex-start",
@@ -36,7 +45,7 @@ function ServicesPage () {
         {
             id: 4,
             service: "ASESORÍA TÉCNICA",
-            backgroundImage: "../../../public/assets/image-home-ascesoria.jpeg",
+            backgroundImage: imageService4,
             goTo: "/servicios/asesoría",
             backgroundColor: "#10A4CE",
             aligning: "flex-end",
@@ -45,7 +54,7 @@ function ServicesPage () {
         {
             id: 5,
             service: "ARRIENDO DE EQUIPOS DE PRUEBAS ELÉCTRICAS",
-            backgroundImage: "../../../public/assets/image-home-arriendo.jpeg",
+            backgroundImage: imageService5,
             goTo: "/servicios/arriendo",
             backgroundColor: "#006EDC",
             aligning: "flex-start",
@@ -57,8 +66,8 @@ function ServicesPage () {
         <section>
             <section className={styles.services_header_main_container}>
                 <section className={styles.services_header_container}>
-                    <img src="../../../public/assets/image-service-header.jpeg" alt="services-image" className={styles.services_header_image_1}/>
-                    <img src="../../../public/assets/image-service-header2.jpeg" alt="services-image" className={styles.services_header_image_2} />
+                    <img src={imageServicePageWall1} alt="services-image" className={styles.services_header_image_1}/>
+                    <img src={imageServicePageWall2} alt="services-image" className={styles.services_header_image_2} />
                     <article className={styles.social_logos_position}>
                         <SocialLogos />
                     </article>

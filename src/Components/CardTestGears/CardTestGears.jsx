@@ -25,7 +25,7 @@ function CardTestGears ( { name, brand, model, image, description, characteristi
                 <section className={styles.testgear_buttons_container}>
                     <button className={styles.testgear_description_button} onClick={showGearDescription}>Descripción</button>
                     <button className={styles.testgear_eett_button}>
-                        <a href={`../../../public/assets/${eett}`} target="_blank" rel="noopener noreferrer">Ficha técnica</a>
+                        <a href={`${eett}`} target="_blank" rel="noopener noreferrer">Ficha técnica</a>
                     </button>
                 </section>
             </article>

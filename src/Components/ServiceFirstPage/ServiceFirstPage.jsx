@@ -2,12 +2,31 @@ import CardServicesDetails from "../CardServicesDetails/CardServicesDetails"
 import ImageSlider from "../ImageSlider/ImageSlider"
 import styles from "./ServiceFirstPage.module.css"
 
+import imageFirstService1 from "../../../public/assets/tx-service-image.jpeg"
+import imageFirstService2 from "../../../public/assets/tx2-service-image.jpeg"
+import imageFirstService3 from "../../../public/assets/tx3-service-image.jpeg"
+import imageFirstService4 from "../../../public/assets/int-service-image.jpeg"
+import imageFirstService5 from "../../../public/assets/int2-service-image.jpeg"
+import imageFirstService6 from "../../../public/assets/mufa1-service-image.jpeg"
+import imageFirstService7 from "../../../public/assets/mufa2-service-image.jpeg"
+import imageFirstService8 from "../../../public/assets/mufa3-service-image.jpeg"
+import imageFirstService9 from "../../../public/assets/mufa4-service-image.jpeg"
+import imageFirstService10 from "../../../public/assets/mufa5-service-image.jpeg"
+import imageFirstService11 from "../../../public/assets/mufa6-service-image.jpeg"
+import imageFirstService12 from "../../../public/assets/cel1-service-image.jpeg"
+import imageFirstService13 from "../../../public/assets/cel2-service-image.jpeg"
+import imageFirstService14 from "../../../public/assets/cel3-service-image.jpeg"
+import imageFirstService15 from "../../../public/assets/cel4-service-image.jpeg"
+import imageFirstService16 from "../../../public/assets/cel5-service-image.jpeg"
+import imageFirstService17 from "../../../public/assets/cel6-service-image.jpeg"
+import imageFirstService18 from "../../../public/assets/cel7-service-image.jpeg"
+
 function ServiceFirstPage () {
 
     const txPowerServiceImages = [
-        "../../../public/assets/tx-service-image.jpeg",
-        "../../../public/assets/tx2-service-image.jpeg",
-        "../../../public/assets/tx3-service-image.jpeg",
+        imageFirstService1,
+        imageFirstService2,
+        imageFirstService3,
     ]
 
     const txPowerServiceDescription = [
@@ -26,8 +45,8 @@ function ServiceFirstPage () {
     ]
 
     const powerIntServiceImages = [
-        "../../../public/assets/int-service-image.jpeg",
-        "../../../public/assets/int2-service-image.jpeg",
+        imageFirstService4,
+        imageFirstService5,
     ]
     const powerIntDescription = [
         {
@@ -44,12 +63,12 @@ function ServiceFirstPage () {
     ]
 
     const cableHTImages = [
-        "../../../public/assets/mufa1-service-image.jpeg",
-        "../../../public/assets/mufa2-service-image.jpeg",
-        "../../../public/assets/mufa3-service-image.jpeg",
-        "../../../public/assets/mufa4-service-image.jpeg",
-        "../../../public/assets/mufa5-service-image.jpeg",
-        "../../../public/assets/mufa6-service-image.jpeg",
+        imageFirstService6,
+        imageFirstService7,
+        imageFirstService8,
+        imageFirstService9,
+        imageFirstService10,
+        imageFirstService11,
     ]
     const cableHTDescription = [
         {
@@ -64,13 +83,13 @@ function ServiceFirstPage () {
     ]
 
     const celImages = [
-        "../../../public/assets/cel1-service-image.jpeg",
-        "../../../public/assets/cel2-service-image.jpeg",
-        "../../../public/assets/cel3-service-image.jpeg",
-        "../../../public/assets/cel4-service-image.jpeg",
-        "../../../public/assets/cel5-service-image.jpeg",
-        "../../../public/assets/cel6-service-image.jpeg",
-        "../../../public/assets/cel7-service-image.jpeg",
+        imageFirstService12,
+        imageFirstService13,
+        imageFirstService14,
+        imageFirstService15,
+        imageFirstService16,
+        imageFirstService17,
+        imageFirstService18,
     ]
     const celDescription = [
         {

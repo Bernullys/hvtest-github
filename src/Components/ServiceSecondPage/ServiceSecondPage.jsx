@@ -2,10 +2,15 @@ import CardServicesDetails from "../CardServicesDetails/CardServicesDetails"
 import ImageSlider from "../ImageSlider/ImageSlider"
 import styles from "../ServiceFirstPage/ServiceFirstPage.module.css"
 
+import imageSecondService1 from "../../../public/assets/control3-service-image.jpeg"
+import imageSecondService2 from "../../../public/assets/control1-service-image.jpeg"
+import imageSecondService3 from "../../../public/assets/control2-service-image.jpeg"
+
+
 function ServiceSecondPage () {
 
     const ingDevelopServiceImages = [
-        "../../../public/assets/control3-service-image.jpeg",
+        imageSecondService1,
     ]
 
     const ingDevelopServiceDescription = [
@@ -22,8 +27,8 @@ function ServiceSecondPage () {
     ]
 
     const controlServiceImages = [
-        "../../../public/assets/control1-service-image.jpeg",
-        "../../../public/assets/control2-service-image.jpeg",
+        imageSecondService2,
+        imageSecondService3,
     ]
     const controlDescription = [
         {

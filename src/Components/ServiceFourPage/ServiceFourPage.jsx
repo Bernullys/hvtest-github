@@ -2,12 +2,17 @@ import CardServicesDetails from "../CardServicesDetails/CardServicesDetails"
 import ImageSlider from "../ImageSlider/ImageSlider"
 import styles from "../ServiceFirstPage/ServiceFirstPage.module.css"
 
+import imageFourService1 from "../../../public/assets/asis1-service-image.jpeg"
+import imageFourService2 from "../../../public/assets/asis2-service-image.jpeg"
+import imageFourService3 from "../../../public/assets/asis3-service-image.jpeg"
+
+
 function ServiceFourPage () {
 
     const supportServiceImages = [
-        "../../../public/assets/asis1-service-image.jpeg",
-        "../../../public/assets/asis2-service-image.jpeg",
-        "../../../public/assets/asis3-service-image.jpeg",
+        imageFourService1,
+        imageFourService2,
+        imageFourService3,
     ]
 
     const supportServiceDescription = [

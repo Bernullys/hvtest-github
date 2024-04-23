@@ -1,15 +1,30 @@
+import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
 import styles from "./Header.module.css"
 
 
 function Header () {
 
+    const [expandedMenu, setExpandedMenu] = useState(false)
+    const [showServicesList, setShowServicesList] = useState(false)
+
+    function toggleMenu () {
+        setExpandedMenu(!expandedMenu)
+    }
+
+    function showServices () {
+        setShowServicesList(!showServicesList)
+    }
+
     return (
         <header>
             <nav className={styles.header_nav_container}>
 
                 <NavLink className={styles.a_logo} to="/">
-                    <section className={styles.header_logo_container}></section>
+                    <section 
+                        className={styles.header_logo_container}
+                        onClick={toggleMenu}
+                    ></section>
                 </NavLink>
 
                 <ul className={styles.header_nav_ul}>
@@ -30,7 +45,10 @@ function Header () {
                     <li>
                         <NavLink
                             to="/servicios"
-                            className={({ isActive }) => isActive ? styles.active_page : undefined}>
+                            className={({ isActive }) => isActive ? styles.active_page : undefined}
+                            onMouseEnter={showServices}
+                            onMouseLeave={showServices}
+                            >
                                 Servicios
                         </NavLink>
                     </li>
@@ -51,7 +69,71 @@ function Header () {
                         </NavLink>
                     </li>
                 </ul>
-
+            </nav>
+            <nav className={ expandedMenu ? styles.responsive_menu_container : styles.menu_hided}>
+                <ul className={styles.responsive_menu_list}>
+                    <li>
+                        <NavLink to="/"
+                            onClick={toggleMenu}>
+                                Inicio
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/nosotros"
+                            onClick={toggleMenu}>
+                                Nosotros
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios"
+                            onClick={toggleMenu}>
+                                Servicios
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/proyectos"
+                            onClick={toggleMenu}>
+                                Proyectos
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contacto"
+                            onClick={toggleMenu}>
+                                Contactanos
+                        </NavLink>
+                    </li>
+                </ul>
+            </nav>
+            <nav className={ showServicesList ? styles.show_services_container : styles.menu_hided}>
+                <ul className={styles.show_services}
+                    onMouseLeave={showServices}>
+                    <li>
+                        <NavLink to="/servicios/pruebas"
+                            >
+                                PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS ELÉCTRICOS
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios/control">
+                                CONTROL Y PROTECCIONES ELÉCTRICAS
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios/mantenimiento">
+                                MANTENIMIENTO Y PUESTA EN SERVICIO DE EQUIPOS ELÉCTRICOS
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios/asesoría">
+                                ASESORÍA TÉCNICA
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/servicios/arriendo">
+                                ARRIENDO DE EQUIPOS DE PRUEBAS ELÉCTRICAS
+                        </NavLink>
+                    </li>
+                </ul>
             </nav>
         </header>
     )

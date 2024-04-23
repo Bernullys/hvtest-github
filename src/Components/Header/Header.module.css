@@ -118,10 +118,94 @@ header {
     .contact_header_button_container {
         display: none;
     }
+    .a_logo {
+        margin-left: 0px;
+    }
 }
 
 @media(max-width: 830px) {
     header {
         width: 100vw;
     }
+}
+
+/* This is for the menu when width < 960px */
+
+.responsive_menu_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    top: 100px;
+
+}
+
+.responsive_menu_list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18CAFF;
+    width: 100%;
+    padding: 12px 0 12px 8px;
+    border: solid 1px #FFF;
+}
+
+.responsive_menu_list li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu_hided {
+    display: none;
+}
+
+@media(min-width: 960px) {
+    .responsive_menu_container {
+        display: none;
+    }
+}
+
+/* This is for show services */
+
+.show_services {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    top: 100px;
+    right: 10%;
+
+}
+
+.show_services li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18CAFF;
+    width: 100%;
+    padding: 12px 0 12px 8px;
+    border: solid 1px #FFF;
+}
+
+.show_services li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

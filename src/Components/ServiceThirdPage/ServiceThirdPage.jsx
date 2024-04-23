@@ -2,17 +2,27 @@ import CardServicesDetails from "../CardServicesDetails/CardServicesDetails"
 import ImageSlider from "../ImageSlider/ImageSlider"
 import styles from "../ServiceFirstPage/ServiceFirstPage.module.css"
 
+import imageThirdService1 from "../../../public/assets/man1-service-image.jpeg"
+import imageThirdService2 from "../../../public/assets/man2-service-image.jpeg"
+import imageThirdService3 from "../../../public/assets/man3-service-image.jpeg"
+import imageThirdService4 from "../../../public/assets/man4-service-image.jpeg"
+import imageThirdService5 from "../../../public/assets/man5-service-image.jpeg"
+import imageThirdService6 from "../../../public/assets/man6-service-image.jpeg"
+import imageThirdService7 from "../../../public/assets/man7-service-image.jpeg"
+import imageThirdService8 from "../../../public/assets/man8-service-image.jpeg"
+
+
 function ServiceThirdPage () {
 
     const mantainServiceImages = [
-        "../../../public/assets/man1-service-image.jpeg",
-        "../../../public/assets/man2-service-image.jpeg",
-        "../../../public/assets/man3-service-image.jpeg",
-        "../../../public/assets/man4-service-image.jpeg",
-        "../../../public/assets/man5-service-image.jpeg",
-        "../../../public/assets/man6-service-image.jpeg",
-        "../../../public/assets/man7-service-image.jpeg",
-        "../../../public/assets/man8-service-image.jpeg",
+        imageThirdService1,
+        imageThirdService2,
+        imageThirdService3,
+        imageThirdService4,
+        imageThirdService5,
+        imageThirdService6,
+        imageThirdService7,
+        imageThirdService8,
     ]
 
     const mantainServiceDescription = [

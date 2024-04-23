@@ -9,6 +9,25 @@ import { TbPointFilled } from "react-icons/tb"
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io"
 import styles from "./HomePage.module.css"
 
+import imageService1 from "../../../public/assets/image-home-pruebas.jpeg"
+import imageService2 from "../../../public/assets/image-home-protecciones.jpeg"
+import imageService3 from "../../../public/assets/image-home-mantenimiento.jpg"
+import imageService4 from "../../../public/assets/image-home-arriendo.jpeg"
+import imageService5 from "../../../public/assets/image-home-ascesoria.jpeg"
+
+import imageProjectHome1 from "../../../public/assets/image-home-project-chuqui.jpeg"
+import imageProjectHome2 from "../../../public/assets/image-home-project-ministrales.jpeg"
+import imageProjectHome3 from "../../../public/assets/image-home-project-nueva-pandeazucar.jpeg"
+
+import imageClientLogo1 from "../../../public/assets/logo-enel-green-power.jpg"
+import imageClientLogo2 from "../../../public/assets/logo-fluxsolar.png"
+import imageClientLogo3 from "../../../public/assets/logo-ingeprover.jpeg"
+import imageClientLogo4 from "../../../public/assets/logo-ionit.jpeg"
+import imageClientLogo5 from "../../../public/assets/logo-mlrental.jpeg"
+
+
+
+
 function HomePage () {
 
     const cardHomeServicesProps = [
@@ -16,34 +35,34 @@ function HomePage () {
             id: 1,
             serviceFirstLine: "PRUEBAS ELÉCTRICAS DE ACEPTACIÓN",
             serviceSecondLine: "A EQUIPOS ELÉCTRICOS",
-            backgroundImage: "../../../public/assets/image-home-pruebas.jpeg",
+            backgroundImage: imageService1,
             goTo: "/servicios/pruebas"
         },
         {
             id: 2,
             serviceFirstLine: "CONTROL Y PROTECCIÓNES",
             serviceSecondLine: "ELÉCTRICAS",
-            backgroundImage: "../../../public/assets/image-home-protecciones.jpeg",
+            backgroundImage: imageService2,
             goTo: "/servicios/control"
         },
         {
             id: 3,
             serviceFirstLine: "MANTENIMIENTO Y PUESTA EN SERVICIO",
             serviceSecondLine: "DE EQUIPOS ELÉCTRICOS",
-            backgroundImage: "../../../public/assets/image-home-mantenimiento.jpg",
+            backgroundImage: imageService3,
             goTo: "/servicios/mantenimiento"
         },
         {
             id: 4,
             serviceFirstLine: "ARRIENDO EQUIPOS",
             serviceSecondLine: "DE PRUEBAS ELÉCTRICAS",
-            backgroundImage: "../../../public/assets/image-home-arriendo.jpeg",
+            backgroundImage: imageService4,
             goTo: "/servicios/arriendo"
         },
         {
             id: 5,
             serviceFirstLine: "ASESORÍA TÉCNICA",
-            backgroundImage: "../../../public/assets/image-home-ascesoria.jpeg",
+            backgroundImage: imageService5,
             goTo: "/servicios/asesoría"
         },
     ]
@@ -53,42 +72,42 @@ function HomePage () {
             id: 6,
             project: "División Chuquicamata, Codelco - Precision",
             description: "Ensayos eléctricos y mantención a equipos de media y baja tensión tales como: Interruptores, CCM's, CDC's, Switchtgears y transformadores.",
-            backgroundImage: "../../../public/assets/image-home-project-chuqui.jpeg"
+            backgroundImage: imageProjectHome1
         },
         {
             id: 7,
             project: "División Ministro Hales, Codelco - Ingelcop",
             description: "Ejecución de pruebas eléctricas a transformadores de poder 1 y 2, Subestación Eléctrica 220/23 kV.",
-            backgroundImage: "../../../public/assets/image-home-project-ministrales.jpeg"
+            backgroundImage: imageProjectHome2
         },
         {
             id: 8,
             project: "Subestación Nueva Pan de Azúcar, Isa Interchile - Siemens",
             description: "Pruebas SAT, equipo primario de alta tensión.",
-            backgroundImage: "../../../public/assets/image-home-project-nueva-pandeazucar.jpeg"
+            backgroundImage: imageProjectHome3
         }
     ]
 
     const cardHomeClientProps = [
         {
             id: 9,
-            backgroundImage: "../../../public/assets/logo-enel-green-power.jpg"
+            backgroundImage: imageClientLogo1
         },
         {
             id: 10,
-            backgroundImage: "../../../public/assets/logo-fluxsolar.png"
+            backgroundImage: imageClientLogo2
         },
         {
             id: 11,
-            backgroundImage: "../../../public/assets/logo-ingeprover.jpeg"
+            backgroundImage: imageClientLogo3
         },
         {
             id: 12,
-            backgroundImage: "../../../public/assets/logo-ionit.jpeg"
+            backgroundImage: imageClientLogo4
         },
         {
             id: 13,
-            backgroundImage: "../../../public/assets/logo-mlrental.jpeg"
+            backgroundImage: imageClientLogo5
         }
     ]
 

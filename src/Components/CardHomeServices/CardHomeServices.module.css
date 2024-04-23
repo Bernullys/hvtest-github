@@ -1,6 +1,6 @@
 .card_home_service_container {
-    width: 392px;
-    height: 520px;
+    width: 335px;
+    height: 444px;
     border-radius: 15px;
     margin: 0px 12px 36px 64px;
     display: flex;
@@ -13,14 +13,15 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 392px;
-    height: 520px;
+    width: 335px;
+    height: 444px;
     border-radius: 15px;
     overflow-wrap: break-word;
 }
 
 .card_home_service_title_container {
     background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
 
 .card_home_service_title {

@@ -2,13 +2,15 @@ import { NavLink } from "react-router-dom"
 import SocialLogos from "../SocialLogos/SocialLogos"
 import styles from "./Footer.module.css"
 
+import footerLogoImage from "../../../public/assets/logo-footer.png"
+
 function Footer () {
     return (
         <footer className={styles.footer_main_container}>
             <section className={styles.footer_nav_container}>
                 <section className={styles.footer_logo_container}>
                     <NavLink to="/">
-                        <img className={styles.logo_hvt_footer} src="../../../public/assets/logo-footer.png" alt="HVTest-company-logo" />
+                        <img className={styles.logo_hvt_footer} src={footerLogoImage} alt="HVTest-company-logo" />
                     </NavLink>
                 </section>
                 <section className={styles.footer_central_container}>
