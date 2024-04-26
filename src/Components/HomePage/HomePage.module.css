@@ -64,6 +64,11 @@
     cursor: pointer;
 }
 
+.blue_button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #18CAFF solid 1px;
+}
+
 .transparent_button {
     width: 189px;
     height: 55px;
@@ -79,6 +84,11 @@
     line-height: normal;
     background: transparent;
     cursor: pointer;
+}
+
+.transparent_button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #18CAFF solid 1px;
 }
 
 /* ----------------------middle--------------------------------------------------- */
@@ -128,6 +138,11 @@
     line-height: normal;
     background: transparent;
     cursor: pointer;
+}
+
+.white_button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: #18CAFF solid 1px;
 }
 
 /* ----------------------home services------------------------------------------------ */

@@ -33,8 +33,10 @@
     margin: 0px 0 0 0;
 }
 
+
 .service_characteristics_item {
     padding-bottom: 8px;
+    text-align: left;
 }
 
 @media (max-width:920px) {
@@ -52,6 +54,9 @@
     .service_subtitle_and_characteristics_container {
         width: 70vw;
         align-items: center;
+    }
+    .service_characteristics_item {
+        margin: 0;
     }
 }
 

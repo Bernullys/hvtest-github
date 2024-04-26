@@ -53,6 +53,11 @@
     margin-bottom: 12px;
 }
 
+.transparent_button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #18CAFF solid 1px;
+}
+
 @media(max-width: 960px) {
     .card_home_project_description {
         display: none;

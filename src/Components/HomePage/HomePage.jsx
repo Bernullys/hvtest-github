@@ -33,8 +33,9 @@ function HomePage () {
     const cardHomeServicesProps = [
         {
             id: 1,
-            serviceFirstLine: "PRUEBAS ELÉCTRICAS DE ACEPTACIÓN",
-            serviceSecondLine: "A EQUIPOS ELÉCTRICOS",
+            serviceFirstLine: "PRUEBAS ELÉCTRICAS",
+            serviceSecondLine: " DE ACEPTACIÓN",
+            serviceThirdLine: "A EQUIPOS ELÉCTRICOS",
             backgroundImage: imageService1,
             goTo: "/servicios/pruebas"
         },
@@ -47,8 +48,9 @@ function HomePage () {
         },
         {
             id: 3,
-            serviceFirstLine: "MANTENIMIENTO Y PUESTA EN SERVICIO",
-            serviceSecondLine: "DE EQUIPOS ELÉCTRICOS",
+            serviceFirstLine: "MANTENIMIENTO",
+            serviceSecondLine: " Y PUESTA EN SERVICIO",
+            serviceThirdLine: "DE EQUIPOS ELÉCTRICOS",
             backgroundImage: imageService3,
             goTo: "/servicios/mantenimiento"
         },
@@ -149,7 +151,8 @@ function HomePage () {
                                     <CardHomeSercives
                                     key={card.id}
                                     serviceFirstLine={card.serviceFirstLine}
-                                    serviceSecondLine={card.serviceSecondLine} 
+                                    serviceSecondLine={card.serviceSecondLine}
+                                    serviceThirdLine={card.serviceThirdLine}
                                     backgroundImage={card.backgroundImage}
                                     goTo={card.goTo}
                                     />

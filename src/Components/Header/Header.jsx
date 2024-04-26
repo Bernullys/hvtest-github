@@ -72,65 +72,69 @@ function Header () {
             </nav>
             <nav className={ expandedMenu ? styles.responsive_menu_container : styles.menu_hided}>
                 <ul className={styles.responsive_menu_list}>
-                    <li>
+                    <li className={styles.responsive_menu_list_item}>
                         <NavLink to="/"
+                            className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
                                 Inicio
                         </NavLink>
                     </li>
-                    <li>
+                    <li className={styles.responsive_menu_list_item}>
                         <NavLink to="/nosotros"
+                            className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
                                 Nosotros
                         </NavLink>
                     </li>
-                    <li>
+                    <li className={styles.responsive_menu_list_item}>
                         <NavLink to="/servicios"
+                            className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
                                 Servicios
                         </NavLink>
                     </li>
-                    <li>
+                    <li className={styles.responsive_menu_list_item}>
                         <NavLink to="/proyectos"
+                            className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
                                 Proyectos
                         </NavLink>
                     </li>
-                    <li>
+                    <li className={styles.responsive_menu_list_item}>
                         <NavLink to="/contacto"
+                            className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
                                 Contactanos
                         </NavLink>
                     </li>
                 </ul>
             </nav>
-            <nav className={ showServicesList ? styles.show_services_container : styles.menu_hided}>
+            <nav className={ showServicesList ? styles.show_services_container : styles.show_services_hided}>
                 <ul className={styles.show_services}
                     onMouseLeave={showServices}>
                     <li>
-                        <NavLink to="/servicios/pruebas"
-                            >
-                                PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS ELÉCTRICOS
+                        <NavLink to="/servicios/pruebas">
+                                Pruebas eléctricas de aceptación a equipos eléctricos
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/servicios/control">
-                                CONTROL Y PROTECCIONES ELÉCTRICAS
+                                Control y protecciones eléctricas
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/servicios/mantenimiento">
-                                MANTENIMIENTO Y PUESTA EN SERVICIO DE EQUIPOS ELÉCTRICOS
+                                Mantenimiento y puesta en servicio de equipos eléctricos
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/servicios/asesoría">
-                                ASESORÍA TÉCNICA
+                                Asesoría técnica
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/servicios/arriendo">
-                                ARRIENDO DE EQUIPOS DE PRUEBAS ELÉCTRICAS
+                                Arriendo de equipos de pruebas eléctricas
                         </NavLink>
                     </li>
                 </ul>

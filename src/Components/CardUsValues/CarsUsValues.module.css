@@ -46,8 +46,14 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .card_us_value {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .card_us_values_container {
         display: none;
     }
 }

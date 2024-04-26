@@ -100,6 +100,95 @@ header {
     line-height: normal;
 }
 
+#cotiza_header_button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #18CAFF;
+    font-weight: 500;
+    border: #18CAFF solid 1px;
+}
+
+
+/* This is for the menu when width < 960px */
+
+.responsive_menu_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    top: 100px;
+
+}
+
+.responsive_menu_list_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18CAFF;
+    width: 100%;
+    padding: 12px 0 12px 8px;
+    border: solid 1px #FFF;
+}
+
+.responsive_menu_list_item_anchor {
+    text-decoration: none;
+    color: #000;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu_hided {
+    display: none;
+}
+
+/* This is for show services */
+
+.show_services {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 2px 0 0 0; 
+    position: fixed;
+    top: 100px;
+    right: 20%;
+
+}
+
+.show_services li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #18CAFF;
+    width: 100%;
+    padding: 8px 0 8px 8px;
+    border: solid 1px #FFF;
+}
+
+.show_services li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "futuraLtBt";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.show_services_hided {
+    display: none;
+}
+
+
 @media(max-width: 1200px) {
     #cotiza_header_button {
         width: 150px;
@@ -129,44 +218,6 @@ header {
     }
 }
 
-/* This is for the menu when width < 960px */
-
-.responsive_menu_list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0px;
-    margin: 0;
-    position: fixed;
-    top: 100px;
-
-}
-
-.responsive_menu_list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #18CAFF;
-    width: 100%;
-    padding: 12px 0 12px 8px;
-    border: solid 1px #FFF;
-}
-
-.responsive_menu_list li a {
-    text-decoration: none;
-    color: #000;
-    font-family: "futuraLtBt";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.menu_hided {
-    display: none;
-}
 
 @media(min-width: 960px) {
     .responsive_menu_container {
@@ -174,38 +225,3 @@ header {
     }
 }
 
-/* This is for show services */
-
-.show_services {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0px;
-    margin: 0;
-    position: fixed;
-    top: 100px;
-    right: 10%;
-
-}
-
-.show_services li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #18CAFF;
-    width: 100%;
-    padding: 12px 0 12px 8px;
-    border: solid 1px #FFF;
-}
-
-.show_services li a {
-    text-decoration: none;
-    color: #000;
-    font-family: "futuraLtBt";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}

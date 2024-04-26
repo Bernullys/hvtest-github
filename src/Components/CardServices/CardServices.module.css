@@ -70,6 +70,13 @@
     z-index: 2;
 }
 
+.service_button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #18CAFF;
+    font-weight: 700;
+    border: #18CAFF solid 1px;
+}
+
 @media (max-width: 1150px) {
     .service_title {
         font-size: 36px;

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useRoutes, BrowserRouter, useLocation } from 'react-router-dom'
+import { useRoutes, HashRouter, useLocation } from 'react-router-dom'
 import Header from './Components/Header/Header'
 import HomePage from './Components/HomePage/HomePage'
 import UsPage from './Components/UsPage/UsPage'
@@ -48,11 +48,11 @@ const AppRoutes = () => {
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <AppRoutes />
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

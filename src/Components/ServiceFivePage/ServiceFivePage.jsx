@@ -47,7 +47,7 @@ const testGears = [
         brand: "Avo",
         model: "DLRO 10",
         image: imageFiveService2,
-        description: `El ohmiómetro DLRO10 y DLRO10X aporta un nuevo estándar en la medición de bajos valores de
+        description: `El micro-ohmimetro DLRO10 y DLRO10X aporta un nuevo estándar en la medición de bajos valores de
         resistencias. Ambos son instrumentos totalmente automáticos, que seleccionan la corriente de
         prueba más idónea, de hasta 10 A de c.c., para medir resistencias desde 0,1μΩ hasta 2.000Ω , en
         uno de siete rangos posibles. Para aquellos usuarios que desean un mayor control sobre el proceso
@@ -189,7 +189,7 @@ const testGears = [
         brand: "Aemc",
         model: "6250",
         image: imageFiveService9,
-        description: `El micrómetro C.A 6250 es un aparato de medida de alta calidad,
+        description: `El micro-ohmimetro C.A 6250 es un aparato de medida de alta calidad,
         digital, portátil, con pantalla LCD retroiluminada. Está destinado a medir valores
         de resistencia muy débiles. Se presenta en una carcasa estanca y robusta con tapa.
         El C.A 6250 es un aparato autónomo, alimentado por una batería recargable con cargador

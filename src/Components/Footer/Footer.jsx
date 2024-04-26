@@ -29,7 +29,7 @@ function Footer () {
             </section>
             <section className={styles.botton_rights}>
                 <ul>
-                    <li>Copyright 2023 G&N Brands</li>
+                    <li>Copyright 2024 G&N Brands</li>
                     <li>Contenido corporativo intern. Prohibida su reproducción.</li>
                 </ul>
                 <ul>

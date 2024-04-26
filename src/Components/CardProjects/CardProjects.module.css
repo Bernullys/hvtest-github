@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
     margin-bottom: 10vh;
 }
 
 .card_project_image_container {
-    height: 70vh;
-    width: 80vw;
+    height: 60vh;
+    width: 70vw;
     overflow: hidden;
     background: rgba(24, 202, 255, 0.25);
     display: flex;
@@ -22,6 +22,7 @@
 
 .card_project_image {
     height: 90%;
+    border-radius: 15px;
 }
 
 .card_project_info {
@@ -30,7 +31,7 @@
     justify-content: center;
     align-items: center;
     justify-content: center;
-    width: 80vw;
+    width: 70vw;
     background: #18CAFF;
     border-radius: 0 0 10px 10px;
 }
@@ -38,11 +39,11 @@
 .card_project_title {
     color: #FFF;
     font-family: "futuraLtBt";
-    font-size: 50px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px;
-    margin: 0;
+    line-height: 100%;
+    margin: 12px 0 0 0;
     text-align: center;
 }
 
@@ -53,7 +54,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+    margin: 12px 0px 7px 7px}
 
 @media (max-width: 850px) {
     .card_project_title {

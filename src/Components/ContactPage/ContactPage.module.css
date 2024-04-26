@@ -78,11 +78,11 @@ input::after {
     display: flex;
     width: 189px;
     height: 55px;
-    padding: 5.011px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
-    gap: 5.011px;
-    border-radius: 88.809px;
+    gap: 5px;
+    border-radius: 88px;
     background: #18CAFF;
     color: #FFF;
     text-align: center;
@@ -95,6 +95,13 @@ input::after {
     cursor: pointer;
     margin-bottom: 110px;
     margin-top: 30px;
+}
+
+.button_contact:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #18CAFF;
+    font-weight: 500;
+    border: #18CAFF solid 1px;
 }
 
 textarea {
