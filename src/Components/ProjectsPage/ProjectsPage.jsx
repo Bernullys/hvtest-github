@@ -172,7 +172,10 @@ function ProjectsPage () {
             </section>
             <section className={styles.projects_texts_container}>
                 <h1 className={styles.projects_title}>Proyectos</h1>
-                <p className={styles.projects_paragraph}>Conoce algunos de nuestros proyectos</p>
+                <p className={styles.projects_paragraph}>Nos complace compartir una selección de los proyectos que hemos ejecutado con éxito, 
+                                                        destacando nuestro compromiso con la excelencia en cada etapa. 
+                                                        Estos proyectos representan nuestra experiencia y dedicación en brindar soluciones 
+                                                        efectivas y de calidad en diversas áreas.</p>
             </section>
             <section className={styles.projects_container}>
                 {

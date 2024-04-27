@@ -65,7 +65,7 @@ function Header () {
                         <NavLink
                             to="/contacto"
                             id={styles.cotiza_header_button}>
-                                Contactanos
+                                Contáctanos
                         </NavLink>
                     </li>
                 </ul>
@@ -104,7 +104,7 @@ function Header () {
                         <NavLink to="/contacto"
                             className={styles.responsive_menu_list_item_anchor}
                             onClick={toggleMenu}>
-                                Contactanos
+                                Contáctanos
                         </NavLink>
                     </li>
                 </ul>

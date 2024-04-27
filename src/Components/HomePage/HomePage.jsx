@@ -124,7 +124,7 @@ function HomePage () {
                         <h1 className={styles.home_title}>Servicios Eléctricos <b className={styles.title_stylist_words}>de Alto Estándar</b> <br></br>para la Industria</h1>
                         <section className={styles.home_buttons_title_container}>
                             <NavLink to="/contacto">
-                                <button className={styles.blue_button}>Contactanos</button>
+                                <button className={styles.blue_button}>Contáctanos</button>
                             </NavLink>
                             <NavLink to="/proyectos">
                                 <button className={styles.transparent_button}>Ver Proyectos</button>

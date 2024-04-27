@@ -64,6 +64,9 @@
     .service_subtitle {
         font-size: 24px;
     }
+    .service_characteristics_item {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 255px) {

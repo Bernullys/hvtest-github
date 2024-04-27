@@ -11,7 +11,7 @@
 }
 
 .image_card_container {
-    margin-top: 55px;
+    margin-top: 0px;
     width: 158px;
     height: 158px;
     border-radius: 158px;
@@ -67,14 +67,14 @@
     padding: 0;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
     .personal_card_container {
         width: 230px;
         height: 300px;
     }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 400px) {
     .personal_card_container {
         width: 190px;
         height: 280px;
@@ -84,12 +84,12 @@
     }
 }
 
-@media (max-width: 268px) {
+@media (max-width: 350px) {
     .image_card_container {
         display: none;
     }
     .personal_card_container {
-        width: 150px;
+        width: auto;
         height: 100px;
     }
 }
