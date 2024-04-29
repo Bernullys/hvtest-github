@@ -130,10 +130,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 750px;
-    }
-    .us_middle_section_main_container {
-        height: 130vh;
     }
 }
 

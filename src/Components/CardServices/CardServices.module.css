@@ -135,6 +135,8 @@
         padding: 5px;
         border-radius: 89px;
         font-size: 16px;
+        font-weight: 200;
+        border: 1px solid #FFF;
     }
     
 }
@@ -144,11 +146,15 @@
         margin-bottom: 18px;
     }
     .service_title_button_container {
-        margin: 0 12px 0 12px;
+        margin: 12px 12px 0 12px;
+        display: inline;
+        align-items: center;
         text-align: center;
+        z-index: 5;
     }
     .service_title {
         font-size: 14px;
+        margin-bottom: 12px;
         
     }
     .service_container {
@@ -163,29 +169,30 @@
     }
     .service_title {
         line-height: 100%;
+        font-weight: 200;
     }
 
 }
 
 @media (max-width: 220px) {
     .service_title_button_container {
-        margin: 0 2px 0 2px;
-        text-align: center;
-    }
+        margin: 2px 2px 0 2px;
 
+    }
     .service_title {
-        font-size: 12px;
-        
+        font-size: 10px;
     }
     .service_container {
-        height: 8vh;
-    } 
+        height: 10vh;
+    }
+
     .service_button {
         width: 50px;
         height: 24px;
         padding: 5px;
         border-radius: 89px;
         font-size: 10px;
+
     }
 
 }

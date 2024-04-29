@@ -7,6 +7,17 @@ function ContactPage () {
         e.preventDefault();
         emailjs.sendForm("service_gaq8idc", "template_x4pfd4h", e.target, "YcRp-roGG6YaNeCTe")
         console.log("Enviado")
+        
+        document.getElementById('name').value = '';
+        document.getElementById('lastName').value = '';
+        document.getElementById('region').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('phone').value = '';
+        document.getElementById('toWho').selectedIndex = 0;
+        document.getElementById('message').value = '';
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        alert("Mensaje enviado correctamente")
     }
 
 
@@ -21,7 +32,7 @@ function ContactPage () {
                 className={styles.contact_form}>
                 <section className={styles.contact_form_sections}>
                     <label for="name">Nombre(s) *</label>
-                    <input type="text" name="name" id="name" placeholder="Nombre" required/>
+                    <input type="text" name="name" id="name" placeholder="Nombre" onSubmit="" required/>
                     <label for="lastName">Apellido(s) *</label>
                     <input type="text" name="lastName" id="lastName" placeholder="Apellido" required/>
                 </section>
