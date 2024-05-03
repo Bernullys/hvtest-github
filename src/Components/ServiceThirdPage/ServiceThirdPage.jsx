@@ -6,7 +6,6 @@ import imageThirdService1 from "../../../public/assets/man1-service-image.jpeg"
 import imageThirdService2 from "../../../public/assets/man2-service-image.jpeg"
 import imageThirdService3 from "../../../public/assets/man3-service-image.jpeg"
 import imageThirdService4 from "../../../public/assets/man4-service-image.jpeg"
-import imageThirdService5 from "../../../public/assets/man5-service-image.jpeg"
 import imageThirdService6 from "../../../public/assets/man6-service-image.jpeg"
 import imageThirdService7 from "../../../public/assets/man7-service-image.jpeg"
 import imageThirdService8 from "../../../public/assets/man8-service-image.jpeg"
@@ -19,7 +18,6 @@ function ServiceThirdPage () {
         imageThirdService2,
         imageThirdService3,
         imageThirdService4,
-        imageThirdService5,
         imageThirdService6,
         imageThirdService7,
         imageThirdService8,

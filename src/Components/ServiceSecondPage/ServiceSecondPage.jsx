@@ -64,8 +64,9 @@ function ServiceSecondPage () {
                             charactericticsList={ing.items}/>
                     ))
                 }
-                <ImageSlider 
-                    imagesList={ingDevelopServiceImages}/>
+                <section>
+                    <img src={imageSecondService1} alt="Scada-control-Image" className={styles.slide_active}/>
+                </section>
             </section>
 
             <section className={styles.serviceone_article_container}>
