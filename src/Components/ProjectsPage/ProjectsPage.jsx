@@ -73,7 +73,7 @@ function ProjectsPage () {
     const cardProjectsProps = [
         {
             id: 11,
-            project: "División Chuquicamata, Codelco - Precision.",
+            project: "División Chuquicamata, Codelco - Precisión.",
             description: "Ensayos eléctricos y mantención a equipos de media y baja tensión tales como: Interruptores, CCM's, CDC's, Switchtgears y transformadores.",
             backgroundImage: [
                 imageProjectPage1,
@@ -135,7 +135,7 @@ function ProjectsPage () {
         },
         {
             id: 16,
-            project: "Subestación Puchuncaví (110/13.8 kV), Aguas Pacifico.",
+            project: "Subestación Puchuncaví (110/13.8 kV), Aguas Pacífico.",
             description: "Ejecución de pruebas eléctricas en equipos primarios.",
             backgroundImage: [
                 imageProjectPage25,

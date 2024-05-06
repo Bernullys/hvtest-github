@@ -19,7 +19,7 @@
 .whatsapp_logo:hover {
     width: 24px;
     height: 24px;
-    color: #006D8F;
+    color: var(--color2);
     padding: 0;
 }
 

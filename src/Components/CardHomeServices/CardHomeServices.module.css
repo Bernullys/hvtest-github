@@ -40,7 +40,7 @@
     height: 55px;
     padding: 3px;
     border-radius: 89px;
-    border: 0.888px solid #18CAFF;
+    border: 0.888px solid  var(--color4);
     color: #FFFFFF;
     text-align: center;
     font-family: "futuraLtBt";
@@ -50,7 +50,7 @@
     line-height: normal;
     background: transparent;
     cursor: pointer;
-    background-color: #18CAFF;
+    background-color:  var(--color4);
     margin-bottom: 24px;
 }
 

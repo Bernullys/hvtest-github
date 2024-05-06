@@ -19,7 +19,7 @@
 
 .card_arrow_left:hover,
 .card_arrow_right:hover {
-    background: #18CAFF;
+    background:  var(--color4);
     color: #FFF;
 }
 

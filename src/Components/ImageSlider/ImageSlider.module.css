@@ -14,7 +14,7 @@
 .card_arrow_right,
 .card_arrow_left {
     margin: 0 24px 0 24px;
-    background: #18caff;
+    background:  var(--color4);
     color: #FFF;
     width: 52px;
     height: 32px;
@@ -39,7 +39,7 @@
 
 .card_arrow_right:hover,
 .card_arrow_left:hover {
-    color: #18caff;
+    color:  var(--color4);
     background: #FFF;
 }
 

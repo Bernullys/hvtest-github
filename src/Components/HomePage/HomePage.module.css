@@ -37,7 +37,7 @@
 }
 
 .title_stylist_words {
-    color: #18CAFF;
+    color: #FFF;
 }
 
 .home_buttons_title_container {
@@ -52,7 +52,7 @@
     height: 55px;
     padding: 5px;
     border-radius: 89px;
-    background: #18CAFF;
+    background: var(--color4);
     color: #FFF;
     text-align: center;
     font-family: "futuraLtBt";
@@ -66,7 +66,7 @@
 
 .blue_button:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    border: #18CAFF solid 1px;
+    border:  var(--color4) solid 1px;
 }
 
 .transparent_button {
@@ -88,7 +88,7 @@
 
 .transparent_button:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    border: #18CAFF solid 1px;
+    border:  var(--color4) solid 1px;
 }
 
 /* ----------------------middle--------------------------------------------------- */
@@ -133,8 +133,8 @@
     height: 55px;
     padding: 5px;
     border-radius: 89px;
-    border: 0.888px solid #18CAFF;
-    color: #18CAFF;
+    border: 0.888px solid  var(--color4);
+    color:  var(--color4);
     text-align: center;
     font-family: "futuraLtBt";
     font-size: 20px;
@@ -147,14 +147,14 @@
 
 .white_button:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    border: #18CAFF solid 1px;
+    border:  var(--color4) solid 1px;
 }
 
 /* ----------------------home services------------------------------------------------ */
 
 .home_services_container {
     height: auto;
-    background: #2dbbe51a;
+    background: var(--color5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +202,7 @@
 
 .card_arrow_right:hover,
 .card_arrow_left:hover {
-    background: #18CAFF;
+    background:  var(--color4);
     color: #FFF;
 
 }
@@ -221,7 +221,7 @@
 }
 
 .paginationpoints:hover {
-    color: #18CAFF;
+    color:  var(--color4);
 }
 
 /* ----------------------home projects------------------------------------------------ */

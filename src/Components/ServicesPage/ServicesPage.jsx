@@ -30,8 +30,8 @@ function ServicesPage () {
             backgroundImage: imageService2,
             goTo: "/servicios/control",
             backgroundColor: "#006EDC",
-            aligning: "flex-end",
-            textAlign: "end"
+            aligning: "flex-start",
+            textAlign: "start"
         },
         {
             id: 3,
@@ -48,8 +48,8 @@ function ServicesPage () {
             backgroundImage: imageService4,
             goTo: "/servicios/asesoría",
             backgroundColor: "#10A4CE",
-            aligning: "flex-end",
-            textAlign: "end"
+            aligning: "flex-start",
+            textAlign: "start"
         },
         {
             id: 5,

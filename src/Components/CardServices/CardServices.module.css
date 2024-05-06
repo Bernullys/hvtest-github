@@ -71,10 +71,10 @@
 }
 
 .service_button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #18CAFF;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:  var(--color5);
     font-weight: 700;
-    border: #18CAFF solid 1px;
+    border:  var(--color5) solid 3px;
 }
 
 @media (max-width: 1150px) {
@@ -141,7 +141,7 @@
     
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
     .service_container {
         margin-bottom: 18px;
     }
@@ -158,7 +158,7 @@
         
     }
     .service_container {
-        height: 12vh;
+        height: 15vh;
     }
     .service_button {
         width: 80px;
@@ -175,16 +175,16 @@
 }
 
 @media (max-width: 220px) {
-    .service_title_button_container {
+    /* .service_title_button_container {
         margin: 2px 2px 0 2px;
 
-    }
+    } */
     .service_title {
         font-size: 10px;
     }
-    .service_container {
-        height: 10vh;
-    }
+    /* .service_container {
+        height: 12vh;
+    } */
 
     .service_button {
         width: 50px;

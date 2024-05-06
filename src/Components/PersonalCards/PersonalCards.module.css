@@ -16,7 +16,7 @@
     width: 158px;
     height: 158px;
     border-radius: 158px;
-    border: 6px solid #18CAFF;
+    border: 6px solid  var(--color4);
 }
 
 .image_card_container img {
@@ -64,7 +64,7 @@
 .card_linke_logo {
     width: 24px;
     height: 24px;
-    color: #18CAFF;
+    color:  var(--color4);
     padding: 0;
 }
 

@@ -5,7 +5,7 @@
     height:fit-content;
     flex-shrink: 0;
     margin-top: 0.5px;
-    background: linear-gradient(180deg, rgba(45, 187, 229, 0.50) 0%, rgba(158, 233, 255, 0.10) 30.98%, rgba(45, 187, 229, 0.00) 68.36%);
+    background: linear-gradient(180deg, var(--color5) 0%, rgba(158, 233, 255, 0.10) 30.98%, rgba(45, 187, 229, 0.00) 68.36%);
     margin-top: 100px;
 }
 
@@ -58,7 +58,7 @@ select {
     width: 100%;
     height: 40px;
     border-radius: 16px;
-    border: 1px solid #18CAFF;
+    border: 1px solid  var(--color4);
     font-family: "futuraLtBt";
     font-size: 18px;
     font-style: normal;
@@ -67,7 +67,7 @@ select {
 }
 
 input::after {
-    border-color: #18CAFF;
+    border-color:  var(--color4);
 }
 
 #message {
@@ -83,7 +83,7 @@ input::after {
     align-items: center;
     gap: 5px;
     border-radius: 88px;
-    background: #18CAFF;
+    background:  var(--color4);
     color: #FFF;
     text-align: center;
     font-family: "futuraLtBt";
@@ -99,16 +99,16 @@ input::after {
 
 .button_contact:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #18CAFF;
+    color:  var(--color4);
     font-weight: 500;
-    border: #18CAFF solid 1px;
+    border:  var(--color4) solid 1px;
 }
 
 textarea {
     width: 100%;
     height: 160px;
     border-radius: 16px;
-    border: 1px solid #18CAFF;
+    border: 1px solid  var(--color4);
     font-family: "futuraLtBt";
     font-size: 18px;
     font-style: normal;
