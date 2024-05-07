@@ -27,14 +27,14 @@
 .card_arrow_right {
     position: absolute;
     top: 45%;
-    right: 1%;
+    right: -30px;
 
 }
 
 .card_arrow_left {
     position: absolute;
     top: 45%;
-    left: 1%;
+    left: -30px;
 }
 
 .card_arrow_right:hover,
@@ -54,6 +54,15 @@
 
 .slide {
     display: none;
+}
+
+@media (max-width: 900px) {
+    .imageslider_main_container {
+        width: 100%;
+    }
+    .slide_active {
+        height: 50vh;
+    }
 }
 
 @media (max-width: 500px) {
