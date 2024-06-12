@@ -21,7 +21,7 @@ function ServiceSecondPage () {
                 "Desarrollo de Diagramas Lógicos.",
                 "Arquitectura de Comunicaciones y Protecciones Eléctricas.",
                 "Ingeniería de Detalle:",
-                "Revisión de detalles técnicos y diagramas elementales de corriente alterna y corriete continua.",
+                "Revisión de detalles técnicos y diagramas elementales de corriente alterna y corriente continua.",
             ]
         }
     ]

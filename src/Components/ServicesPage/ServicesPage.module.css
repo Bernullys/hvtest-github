@@ -3,7 +3,7 @@
     justify-content: center;
     height: 724px;
     flex-shrink: 0;
-    background: linear-gradient(180deg, var(--color5) 0%, rgba(158, 233, 255, 0.10) 30.98%, rgba(45, 187, 229, 0.00) 68.36%);
+    background: linear-gradient(180deg, var(--color4) 0%, rgba(158, 233, 255, 0.10) 85%);
     margin-top: 100px;
 }
 
