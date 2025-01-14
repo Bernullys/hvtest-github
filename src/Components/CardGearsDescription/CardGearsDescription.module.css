@@ -1,7 +1,7 @@
 .card_gear_des_main_container {
     width: 90vw;
     height: 90vh;
-    background: rgba(111, 0, 255, 1);
+    background: var(--color4);
     position: relative;
     box-shadow: 0px 4px 15px 0px rgba(24, 202, 255, 0.25);
 }

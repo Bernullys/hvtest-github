@@ -13,12 +13,6 @@ import leoProfileImage from "../../../public/assets/Leonardo-Image.jpeg"
 
 const workersInfo = [
     {
-        name: "Jose Manuel Freitez",
-        position: "Ingeniero Eléctricista",
-        profileImage: joseProfileImage,
-        linkTolinkedin: "https://www.linkedin.com/in/jos%C3%A9-manuel-freitez-martos-932190bb/"
-    },
-    {
         name: "Leonardo Alejandro Nuñez",
         position: "Ingeniero Eléctricista",
         profileImage: leoProfileImage,

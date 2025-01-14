@@ -18,18 +18,16 @@ function Footer () {
                     <ul>
                         <h3>Email</h3>
                         <li>l.nunez@hvtest.cl</li>
-                        <li>j.freitez@hvtest.cl</li>
                     </ul>
                     <ul>
-                        <h3>Teléfonos</h3>
-                        <li>(+56) 990886123</li>
-                        <li>(+56) 949220700</li>
+                        <h3>Teléfono</h3>
+                        <li>(+56) 973452744</li>
                     </ul>
                 </section>
             </section>
             <section className={styles.botton_rights}>
                 <ul>
-                    <li>Copyright 2024 G&N Brands</li>
+                    <li>Copyright 2025 B&D Brands</li>
                     <li>Contenido corporativo intern. Prohibida su reproducción.</li>
                 </ul>
                 <ul>

@@ -41,6 +41,8 @@ import imageProjectPage34 from "../../../public/assets/project7-image2.jpeg"
 import imageProjectPage35 from "../../../public/assets/project7-image3.jpeg"
 import imageProjectPage36 from "../../../public/assets/project7-image4.jpeg"
 import imageProjectPage37 from "../../../public/assets/project7-image5.jpeg"
+import imageProjectPage38 from "../../../public/assets/project8-image1.jpeg"
+import imageProjectPage39 from "../../../public/assets/project8-image2.jpeg"
 
 
 
@@ -71,6 +73,15 @@ function ProjectsPage () {
     }
 
     const cardProjectsProps = [
+        {
+            id: 10,
+            project: "División El Teniente, Codelco Andina.",
+            description: "Proyecto Diamante - Ejecución de pruebas eléctricas a equipos de media tensión y protecciones eléctricas switchgear (SEU-002 - SEU-156).",
+            backgroundImage: [
+                imageProjectPage38,
+                imageProjectPage39
+            ],
+        },
         {
             id: 11,
             project: "División Chuquicamata, Codelco - Precisión.",

@@ -3,10 +3,10 @@ import CardTestGears from "../CardTestGears/CardTestGears";
 import styles from "./ServiceFivePage.module.css"
 
 import imageFiveService1 from "../../../public/assets/RMO200G.png"
-import imageFiveService2 from "../../../public/assets/DLRO10.png"
-import imageFiveService3 from "../../../public/assets/MIT10202.png"
+import imageFiveService2 from "../../../public/assets/AEMC3731.png"
+import imageFiveService3 from "../../../public/assets/IBEX2000.png"
 import imageFiveService4 from "../../../public/assets/AEMCDTR8510.png"
-import imageFiveService5 from "../../../public/assets/FLIRE5.png"
+import imageFiveService5 from "../../../public/assets/PUNTASVLF.png"
 import imageFiveService6 from "../../../public/assets/ALROCMF360.png"
 import imageFiveService7 from "../../../public/assets/MEGGERS1-1068.png"
 import imageFiveService8 from "../../../public/assets/AEMC6472.png"
@@ -43,45 +43,29 @@ const testGears = [
         eett: pdfFiveService1
     },
     {
-        name: "Micróhmetro - 10 A",
-        brand: "Avo",
-        model: "DLRO 10",
+        name: "Pinza para medición de puesta a tierra",
+        brand: "Aemc",
+        model: "3731",
         image: imageFiveService2,
-        description: `El micro-ohmimetro DLRO10 y DLRO10X aporta un nuevo estándar en la medición de bajos valores de
-        resistencias. Ambos son instrumentos totalmente automáticos, que seleccionan la corriente de
-        prueba más idónea, de hasta 10 A de c.c., para medir resistencias desde 0,1μΩ hasta 2.000Ω , en
-        uno de siete rangos posibles. Para aquellos usuarios que desean un mayor control sobre el proceso
-        de medida, DLRO10X utiliza un sistema de menús controlado por un par de puntas de prueba
-        bidireccionales, que permiten la selección manual de la corriente de prueba.`,
-        characteristics: `Resultados precisos en menos de 3 segundos.
-        La inversión automática de corriente anula fuerzas electromotrices estacionarias.
-        Protegido por fusibles hasta 600 V.
-        Límite de potencia de 250mW (con anulación opcional) para evitar el calentamiento de la muestra
-        objeto de prueba.
-        Detecta automáticamente la condición de continuidad en conexiones de voltaje y corriente.
-        Advertencia visible de presencia de alto voltaje en terminales.
-        Advertencia visible de corriente en la muestra objeto de prueba.
-        Múltiples modos de funcionamiento incluyendo uno completamente automático.`,
+        description: `El probador de resistencia a tierra 3731 mide resistencia de electrodos de tierra y pequeñas mallas de
+        tierra en cualquier condición atmosférica sin el uso de electrodos de tierra auxiliares. Los probadores de resistencia
+        de tierra de mordazas se utilizan en sistemas de tierra múltiples sin tener que desconectar los electrodos de tierra durante
+        el ensayo. El modelo 3731 simplemente rodean con sus mordazas los conductores de tierra o los electrodos de tierra y miden la
+        resistencia a tierra.
+        Realizando mediciones en sistemas de puesta a tierra intactos, el usuario verifica además la calidad de sus conexiones de tierra. La
+        resistencia y la continuidad de los circuitos de tierra en plataformas y edificios tambien pueden ser medidas.`,
+        characteristics: ``,
         eett: pdfFiveService2
     },
     {
-        name: "Medidor de aislamiento - 10 kV",
-        brand: "Megger",
-        model: "MIT 1020/2",
+        name: "Equipo de medición para calidad de baterías",
+        brand: "Powertron",
+        model: "Ibex 2000",
         image: imageFiveService3,
-        description: `El modelo MIT1020/2, 10 kV probador de resistencia de aislamiento diseñado específicamente para
-        ayudar al usuario con las pruebas y el mantenimiento de alta tensión. Los instrumentos están diseñados en un
-        estilo paisajístico que es más familiar y fácil de usar.`,
-        characteristics: `- Alimentación eléctrica o con pilas
-        - Pantalla retroiluminada digital/analógica
-        - Rango de medición hasta 15 TΩ (35 TΩ (MIT1020/2)
-        - Clasificación de seguridad CAT IV 600 V
-        - Relación de absorción dieléctrica automática,
-        índice de polarización, voltaje de paso y
-        pruebas de descarga dieléctrica (MIT1020/2)
-        - Descarga de resultados mediante RS232 o USB.
-        - Protección de ingreso a IP65
-        - Corriente de cortocircuito de 3 mA`,
+        description: `IBEX es un probador digital de calidad de batería de vanguardia que cumple con las recomendaciones de la norma
+        IEEE Std 1188-1996, especialmente usado para todas las aplicaciones estacionarias como bancos de energía de telecomunicaciones,
+        subestaciones eléctricas, energía de conmutación de servicios públicos, UPS, etc.`,
+        characteristics: ``,
         eett: pdfFiveService3
     },
     {
@@ -110,21 +94,15 @@ const testGears = [
         eett: pdfFiveService4
     },
     {
-        name: "Cámara termográfica",
-        brand: "Flir",
-        model: "E5",
+        name: "Puntas para pruebas VLF - Tang delta",
+        brand: "S/E",
+        model: "S/E",
         image: imageFiveService5,
-        description: `La FLIR E5 es de las primeras cámaras infrarrojas real con imágenes térmicas visibles y MSX.
-        Ahora todos los técnicos e inspectores de la industria pueden permitirse el lujo de usar una cámara de
-        la Serie E útil para escaneos rápidos y controles de seguridad. Es más fácil de usar que un teléfono
-        inteligente. La línea más nueva de cámaras termográficas económicas de FLIR ofrece todo lo que
-        necesitas para una amplia variedad de inspecciones por infrarrojos. Vea y encuentre claramente los
-        componentes eléctricos-mecánicos ocultos, sobrecalentamientos, fuentes de fuga de energía,
-        problemas de humedad y más. Esta es una herramienta imprescindible que puede ayudar a las
-        empresas a mejorar significativamente los tiempos de producción y servicio, reduciendo costos
-        ocasionados por fallas.`,
+        description: `Puntas especiales tipo C y loadbreak para la realización de pruebas vlf  y tangente delta a conductores de media
+        tensión, eliminando los disparos erróneos, disminuyendo los tiempos de ejecución de las pruebas eléctricas, aislando perfectamente
+        el campo eléctrico en el punto de inyección de voltaje.`,
         characteristics: ``,
-        eett: pdfFiveService5
+        eett: "No aplica"
     },
     {
         name: "Máquina para confección de mufas o terminaciones",
