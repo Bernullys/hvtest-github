@@ -15,7 +15,7 @@ import imageService3 from "../../../public/assets/image-home-mantenimiento.jpg"
 import imageService4 from "../../../public/assets/image-home-arriendo.jpeg"
 import imageService5 from "../../../public/assets/image-home-ascesoria.jpeg"
 
-import imageProjectHome1 from "../../../public/assets/image-home-project-chuqui.jpeg"
+import imageProjectHome1 from "../../../public/assets/project8-image22.jpg"
 import imageProjectHome2 from "../../../public/assets/image-home-project-ministrales.jpeg"
 import imageProjectHome3 from "../../../public/assets/image-home-project-nueva-pandeazucar.jpeg"
 
@@ -72,8 +72,8 @@ function HomePage () {
     const cardHomeProjectsProps = [
         {
             id: 6,
-            project: "División Chuquicamata, Codelco - Precision",
-            description: "Ensayos eléctricos y mantención a equipos de media y baja tensión tales como: Interruptores, CCM's, CDC's, Switchtgears y transformadores.",
+            project: "Codelco Andina - División El Teniente",
+            description: "Proyecto Diamante - Ejecución de pruebas eléctricas a equipos de media tensión y protecciones eléctricas switchgear (SEU-002 - SEU-156).",
             backgroundImage: imageProjectHome1
         },
         {

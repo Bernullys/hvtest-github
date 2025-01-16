@@ -13,10 +13,10 @@ import imageFiveService8 from "../../../public/assets/AEMC6472.png"
 import imageFiveService9 from "../../../public/assets/AEMC6250.png"
 
 import pdfFiveService1 from "../../../public/assets/RMO-200G.pdf"
-import pdfFiveService2 from "../../../public/assets/DLRO10.pdf"
-import pdfFiveService3 from "../../../public/assets/MEGGERMIT1020-2.pdf"
+import pdfFiveService2 from "../../../public/assets/AEMC3731.pdf"
+import pdfFiveService3 from "../../../public/assets/IBEX2000.pdf"
 import pdfFiveService4 from "../../../public/assets/DTR8510.pdf"
-import pdfFiveService5 from "../../../public/assets/FLIRE5.pdf"
+
 import pdfFiveService6 from "../../../public/assets/MF360S.pdf"
 import pdfFiveService7 from "../../../public/assets/MEGGERS1-1068.pdf"
 import pdfFiveService8 from "../../../public/assets/AEMC6472.pdf"
@@ -102,7 +102,7 @@ const testGears = [
         tensión, eliminando los disparos erróneos, disminuyendo los tiempos de ejecución de las pruebas eléctricas, aislando perfectamente
         el campo eléctrico en el punto de inyección de voltaje.`,
         characteristics: ``,
-        eett: "No aplica"
+        eett: "Sin ficha técnica"
     },
     {
         name: "Máquina para confección de mufas o terminaciones",
