@@ -54,7 +54,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 12px 0px 7px 7px}
+    margin: 12px 0px 7px 7px;
+    text-align: center;
+}
 
 @media (max-width: 850px) {
     .card_project_title {
