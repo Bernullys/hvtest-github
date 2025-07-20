@@ -42,7 +42,6 @@
 
 .services_header_main_title {
     color: #FFF;
-    font-family: "futuraLtBt";
     font-size: 58px;
     font-style: normal;
     font-weight: bolder;
@@ -65,7 +64,6 @@
 
 .services_header_paragraph {
     color: #3D3D3D;
-    font-family: "futuraLtBt";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +93,6 @@
 .services_content_title {
     color: #3D3D3D;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -107,7 +104,6 @@
 .services_content_paragraph {
     color: #3D3D3D;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -120,7 +116,6 @@
 .services_content_subtitle {
     color: #3D3D3D;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;

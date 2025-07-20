@@ -28,7 +28,6 @@
     margin: 0;
     color: #3D3D3D;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -40,7 +39,6 @@
     margin: 0;
     color: #3D3D3D;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -56,7 +54,6 @@
 .testgear_eett_button  {
     height: 54px;
     color: #FFF;
-    font-family: "futuraLtBt";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -78,7 +75,6 @@
 
 .testgear_eett_button a {
     color: #FFF;
-    font-family: "futuraLtBt";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;

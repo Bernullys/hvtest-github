@@ -12,7 +12,6 @@
     justify-content: flex-start;
     color: #3D3D3D;
     text-align: left;
-    font-family: "futuraLtBt";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -24,7 +23,6 @@
 .service_subtitle {
     color: black;
     text-align: left;
-    font-family: "futuraLtBt";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;

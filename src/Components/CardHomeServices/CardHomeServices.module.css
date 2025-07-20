@@ -26,7 +26,6 @@
 
 .card_home_service_title {
     color: #FFFFFF;
-    font-family: "futuraLtBt";
     font-size: 18px;
     font-style: normal;
     font-weight: bolder;
@@ -43,7 +42,6 @@
     border: 0.888px solid  var(--color4);
     color: #FFFFFF;
     text-align: center;
-    font-family: "futuraLtBt";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
